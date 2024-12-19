@@ -1,0 +1,13 @@
+[package]
+name = "inbound-outbox"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { workspace = true }
+mongodb = { workspace = true }
+tokio = { workspace = true }
+tokio-stream = "0.1.17"
+chrono = { workspace = true }
+futures-util = { workspace = true }
+common-kafka = { path = '../common-kafka' }

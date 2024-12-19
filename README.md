@@ -13,9 +13,7 @@ The project will consist of many services, running independently from each other
 
 ### Inbound Service
 
-<<<<<<< HEAD
 <img alt="inbound_service" width="650px" src="Inbound_Service.png" />
-=======
 When products are delivered to the warehouse, these are scanned, which writes them to the database.
 
 This then processes the incoming stock, writes to the outbox table and the inbound table.
@@ -27,4 +25,3 @@ The inbound shipments outbox service will then send an event in the fulfillment 
 Currently, this runs from a CSV instead of someone calling an API with a new product scan. This will eventually be implemented as a front-end app, where users can scan a QR code that contains all of the info of the product that has been delivered.
 
 [<img alt="inbound_service" width="40px" src="Inbound_Service.png" />]
->>>>>>> df5070e (Add illustrations to README)

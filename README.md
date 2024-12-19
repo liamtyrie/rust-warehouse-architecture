@@ -13,4 +13,4 @@ The project will consist of many services, running independently from each other
 
 ### Inbound Service
 
-<img alt="inbound_service" width="400px" src="Inbound_Service.png" />
+<img alt="inbound_service" width="650px" src="Inbound_Service.png" />

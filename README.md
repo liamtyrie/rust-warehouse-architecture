@@ -13,7 +13,7 @@ The project will consist of many services, running independently from each other
 
 ### Inbound Service
 
-<img alt="inbound_service" width="650px" src="Inbound_Service.png" />
+<img alt="inbound_service" width="640px" src="Inbound_Service.png" />
 When products are delivered to the warehouse, these are scanned, which writes them to the database.
 
 This then processes the incoming stock, writes to the outbox table and the inbound table.

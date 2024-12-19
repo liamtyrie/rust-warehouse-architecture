@@ -25,3 +25,5 @@ The inbound shipments outbox service will then send an event in the fulfillment 
 Currently, this runs from a CSV instead of someone calling an API with a new product scan. This will eventually be implemented as a front-end app, where users can scan a QR code that contains all of the info of the product that has been delivered.
 
 [<img alt="inbound_service" width="40px" src="Inbound_Service.png" />]
+
+##
